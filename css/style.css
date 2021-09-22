@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+.navbar {
+  position: ;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+nav #list {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  
+}
+nav li a {
+  text-decoration: none;
+  padding: 10px 10px;
+  color: gray;
+  transition: 0.2s;
+  border-radius: 30px;
+}
+nav li a:hover{
+
+border-radius: 30px;
+color: white;
+background-color: #751aff;
+}
+.navbar > span h1 {
+  width: 50%;
+  font-size: 30px;
+}
+.one {
+  margin-top: 30px;
+  background-image: url("../images/header-bg.png");
+  background-size: cover;
+}
+section.one div.row {
+  columns: 2;
+}
+
+.one h1 {
+  font-size: 50px;
+  margin-top: 180px;
+  margin-left: 170px;
+}
+#banner {
+  width: 80%;
+  margin-top: 100px;
+  transition: 0.5s;
+}
+#banner:hover{
+  transform: scale(1.1);
+}
+.two h1 {
+  font-size: 25px;
+  text-align: center;
+  margin-top: 80px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+section.two {
+  margin-bottom: 180px;
+  background-image: url(../images/teambanner-bg.png);
+  background-size: cover;
+background-position: right
+}
+section.two .row {
+  columns: 3;
+  display: flex;
+  justify-content: center;
+  column-gap: 8%;
+  margin-top: 80px;
+}
+section.two .column h1 {
+  font-size: 16px;
+  margin-top: 15px;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(60, 60, 116);
+}
+section.two p {
+  font-size: 12px;
+  text-align: center;
+  margin-top: 10px;
+}
+section.two img {
+  margin-left: 30%;
+  width: 30%;
+}
+section.three .row {
+  display: flex;
+  margin-left: 17%;
+}
+section.three {
+}
+section.three h1 {
+  width: 280px;
+  font-family: arial;
+  margin-top: 20px;
+}
+section.three h4 {
+  width: 100px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: #751aff;
+}
+section.three > div {
+  width: 50%;
+}
+section.three img {
+  width: 450px;
+  transition: 0.5s;
+}
+section.three img:hover{
+  transform: scale(1.1);
+}
+section.three .main {
+  margin-top: 20px;
+  width: 350px;
+}
+section.three .next {
+  margin-top: 30px;
+}
+div.mid {
+  display: flex;
+  height: 150px;
+}
+div.mid img {
+  min-width: 296.70px;
+  height: 150px;
+  object-fit: cover;
+}
+div.mid .h-one {
+  position: absolute;
+  left: 13%;
+  font-size: 30px;
+  margin-top: 30px;
+  color: white;
+}
+div.mid p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 20px;
+  margin-top: 15px;
+}
+div.txt {
+  columns: 4;
+  position: absolute;
+  color: white;
+  column-gap: 200px;
+  margin: 30px;
+  font-family: arial;
+  font-size: 22px;
+}
+
+section.four {
+  background-color: #751aff;
+  color: ;
+}
+section.four .row {
+  display: flex;
+  column-gap: 20%;
+
+  margin-left: 15%;
+}
+
+section.four p {
+  color: white;
+  margin-top: 10px;
+}
+section.four h1 {
+  width: 280px;
+  font-family: arial;
+  color: white;
+  margin-top: 20px;
+}
+section.four h4 {
+  width: 100px;
+  font-family: sans-serif;
+  font-size: 12px;
+  color: white;
+  margin-top: 80px;
+}
+section.four > div {
+  width: 50%;
+}
+section.four img {
+  width: 400px;
+  margin-top: 70px;
+  transition: 0.5s;
+}
+section.four img:hover{
+  transform: scale(1.1);
+}
+section.four #img-left {
+  margin-bottom: 60px;
+}
+section.four > div #h-again {
+  margin-top: 110px;
+}
+section.five{
+  background-image: url("../images/counter-bg.jpg");
+  background-position: right;
+  background-size: cover;
+}
+section.five .row{
+  display: flex;
+  margin-top: 100px;
+margin-left: 15%;
+
+}
+section.five .row p{
+  margin-top: 10px;
+}
+section.five .column-img{
+  columns: 3;
+  width: 50%;
+  margin-left: 50px;
+margin-top: 50px;
+
+}
+section.five img{
+  width: 50%;
+}
+section.five >.row > #cc1{
+  height: 350px;
+
+}
+section.five >.row h1{
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 10px;
+}
+section.five >.row h4{
+  color: #751aff;
+}
+
+section.five .column-img p{
+  height: 20px;
+  
+}
+section.five .column-img h1{
+  margin-left: 20px;
+}
+section.six div.last{
+  text-align: center;
+margin-top: 80px;
+
+}
+section.six div.last h1{
+  font-size: 35px;
+}
+section.six div.last h4{
+  color: #751aff;
+}
+section.six{
+  background-image: url("../images/teambanner-bg.png");
+}
+section.six .row{
+  display: flex;
+justify-content: center;
+}
+section.six img{
+  width: 300px;
+  margin-top: 80px;
+  margin-left: 30px;
+  transition: 0.5s;
+}
+section.six img:hover{
+  transform: scale(1.1);
+
+}
+section.six .row h1{
+  margin-top: 20px;
+  text-align: center;
+  color: #751aff;
+}
+section.six .row p{
+  margin-top: 5px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+section.seven .row{
+  display: flex;
+  column-gap: 40%;
+  
+margin-top: 10%;
+}
+section.seven img{
+  width: 300%;
+}
+
+
+.container .contact-form {
+  width: 53%;
+  margin-left: 2%;
+  float: left;
+}
+.container .contact-form .title {
+  font-size: 33px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
+  color: #242424;
+  margin: 5% 8%;
+  width: 110%;
+}
+.container .contact-form h4{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin: 0 4% 5% 8%;
+  color: #751aff;
+}
+.container .contact-form input,
+.container .contact-form textarea {
+  width: 330px;
+  padding: 3%;
+  margin: 2% 8%;
+  color: #242424;
+  border: 1px solid #B7B7B7;
+}
+.container .contact-form input::placeholder,
+.container .contact-form textarea::placeholder {
+  color: #242424;
+}
+.container .contact-form button {
+  background: rgb(0, 183, 255);
+  width: 180px;
+  height: 50px;
+  color: #FFFFFF;
+  font-weight: 700;
+  margin: 5% 8%;
+  border-radius: 30px;
+border: 1px solid rgb(0, 183, 255);
+cursor: pointer;
+transition: 0.5s;
+}
+.container .contact-form button:hover{
+  background-color: #751aff;
+}
+div.end img{
+  width: 100%;
+
+}
+section.eight div.endtxt{
+ display: flex;
+justify-content: space-around;
+text-align: center;
+}
+section.eight div.endtxt h4{
+  margin-top: 5px;
+}
+section.eight div.row{
+  display: flex;
+gap: 50px;
+}
+section.eight div.c11{
+  display: flex;
+justify-content: center;
+gap: 40px;
+margin-top: 15px;
+margin-right: 10px;
+}
+section.eight div.all p.lastline{
+  margin-top: 100px;
+  margin-left: 11%;
+  margin-bottom: 20px;
+  
+
+}
+section.eight div.all{
+  
+  color: black;
+  background-image: url("../images/footer-bg.jpg");
+  color: white;
+}
